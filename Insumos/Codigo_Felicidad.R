@@ -16,10 +16,10 @@ library(ggplot2)
 # 1. LECTURA DE ARCHIVOS
 # ============================================================
 
-df <- read_excel("C:/Users/LENOVO/Music/CONSULTORIA/PRIMERCORTE/Proyecto-Medicion-de-la-Felicidad-SANTOTO/Insumos/Formulario de la escala de bienestar subjetivo(1-280).xlsx")
+df <- read_excel("Insumos/Formulario de la escala de bienestar subjetivo(1-280).xlsx")
 
 tab <- read_excel(
-  "C:/Users/LENOVO/Music/CONSULTORIA/PRIMERCORTE/Proyecto-Medicion-de-la-Felicidad-SANTOTO/Insumos/TABULACIÓN DE RESULTADOS PRUEBA PILOTO.xlsx",
+  "Insumos/TABULACIÓN DE RESULTADOS PRUEBA PILOTO.xlsx",
   range = "A1:K19"
 ) %>%
   mutate(
@@ -241,4 +241,5 @@ difficulty <- 1 - p_star
 
 total <- rowMeans(items, na.rm = TRUE) * length(it_cols)
 reliab <- alpha_ord$total$raw_alpha # o omega_ord$omega.tot
+
 SEM <- sd(total, na.rm = TRUE) * sqrt(1 - reliab) 
