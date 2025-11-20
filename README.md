@@ -1,1 +1,3 @@
 # Proyecto-Medición-de-la-Felicidad-SANTOTO
+
+Este repositorio documenta el Proyecto de Medición de la Felicidad SANTOTO, cuyo propósito es diseñar, pilotear y analizar una escala multidimensional de bienestar para estudiantes de la Universidad Santo Tomás. Aquí se incluyen los insumos del instrumento (escala de 29 ítems organizada en seis dimensiones), las bases de datos del pilotaje, el código de procesamiento y análisis en R, y la propuesta de diseño muestral para su aplicación a mayor escala. El objetivo final es generar indicadores confiables de felicidad estudiantil que sirvan como insumo para la toma de decisiones institucionales y el fortalecimiento de las estrategias de Bienestar Universitario.
